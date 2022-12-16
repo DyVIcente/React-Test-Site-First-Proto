@@ -21,7 +21,6 @@ function Footer() {
           <YouTubeIcon />
         </a>
       </div>
-      <p className="foot logof">Mini logo</p>
       <p className="foot textf">© 2022 Div Vice. All rights reserved</p>
     </section>
   )
