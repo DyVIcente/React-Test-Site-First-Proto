@@ -1,0 +1,39 @@
+.switch {
+   position: fixed;
+   left: 45%;
+    top: 20px;
+}
+
+label {
+    white-space: nowrap;
+    position: absolute;
+    font-size: x-small;
+    top: 85%;
+}
+
+#dark label {
+    color: white;
+}
+
+#light {
+    background-color: #dee4e7;
+}
+
+#dark {
+    background-color: #2C3333;
+}
+
+#dark h1, h2 {
+    color: #395B64;
+}
+
+#dark p{
+    color: #F5EFE6;
+}
+
+
+@media screen and (min-width:767px) {
+    .switch{
+        left: 90%;
+    }
+}

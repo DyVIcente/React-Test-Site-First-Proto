@@ -7,9 +7,10 @@
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    background-color: black;
     color: white;
 }
+
+
 
 .navbar__links {
     display: flex;
@@ -154,3 +155,15 @@ color:inherit;
     }
 
 }
+
+
+/* LIGHT AND DARK ************/
+#dark .navbar {
+    background-color: black;
+}
+#light .navbar {
+    background-color: #AEBDCA;
+    color: #303d49;
+    font-weight: bold;
+}
+

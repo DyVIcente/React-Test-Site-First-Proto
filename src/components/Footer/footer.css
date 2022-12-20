@@ -1,10 +1,5 @@
 .footer {
     padding: 20px 0 20px 0;
-    background: black;
-}
-
-.foot{
-    color: white;
 }
 
 
@@ -13,6 +8,29 @@
     text-align: center;
 }
 
-.iconSocial {
-    color: white;
+
+
+/********* LIGHT AND DARK ***************/
+#dark .footer {
+    background-color: black;
 }
+#light .footer {
+    background-color: #AEBDCA;
+}
+
+#light .iconSocial, .foot {
+    color: #303d49;
+}
+
+#dark .iconSocial, .foot {
+    color: aliceblue;
+}
+
+#light .foot {
+    color: #303d49;
+}
+
+#dark .foot {
+    color: aliceblue;
+}
+

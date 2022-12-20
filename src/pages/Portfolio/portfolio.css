@@ -1,3 +1,69 @@
 .portf__main {
     padding: 100px 10px
 }
+.portfolio-page {
+
+    color: #474544;
+
+  }
+  
+  .portfolio-page h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .portfolio-page p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  .projects-list {
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project {
+    flex: 0 0 300px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .project-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5%;
+    max-width: 550px;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .project.visible {
+    animation: fadeIn 0.9s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
